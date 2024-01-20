@@ -203,8 +203,8 @@ def central_variance_position_data():
     except ValueError:
         print("Masukan angka yang valid")
    
-#fungsi probabilitas
-def probabilitas():
+#fungsi permutasi dan kombinasi
+def ComPer():
     try:
         user = int(input("1.Kombinasi\n2.Permutasi\nMasukan pilihan anda(Combination,Permutation): "))
         if user == 1:
@@ -246,7 +246,7 @@ while(True):
         elif pil == 8:
             central_variance_position_data()
         elif pil == 9:
-            probabilitas()
+            ComPer()
         else:
             print("Have a good day!")
             break
