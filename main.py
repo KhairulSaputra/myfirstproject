@@ -255,4 +255,6 @@ while(True):
     except KeyboardInterrupt:
         print("Terima kasih. Program dihentikan.")
         break
-
+        
+if __name__ == '__main__':
+    pass
